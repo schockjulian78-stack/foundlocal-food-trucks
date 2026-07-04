@@ -97,7 +97,7 @@ function getStatusBadgeClass(status: TruckStatus) {
 export default function Home() {
   return (
     <main className="min-h-screen bg-neutral-950 text-white">
-      <section className="mx-auto flex max-w-6xl flex-col gap-12 px-6 py-12 md:gap-13 md:py-20">
+      <section className="mx-auto flex max-w-6xl flex-col gap-12 px-6 py-12 md:gap-12 md:py-20">
         <HeroSection />
         <TruckListingsSection />
         <ExampleProfileSection />
